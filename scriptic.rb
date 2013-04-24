@@ -10,7 +10,7 @@ puts $extension
 $successmail = false
 def send_log_mail(s_mail_bool)
 	from = 'cigualex@gmail.com'
-	pass = 'c85008377'
+	pass = '********'
 	to = 'cigureanu.a@gmail.com'	
 	if s_mail_bool
 		s_mail = Mail.new do
