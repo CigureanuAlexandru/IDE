@@ -46,6 +46,7 @@ def compile_file()
 		when 'c'
 			if system( 'g++ /home/alex/IDE/HelloWorldPrograms/c/hello.c -o /home/alex/IDE/HelloWorldPrograms/c/hello')
 				system( '/home/alex/IDE/HelloWorldPrograms/c/./hello' )
+				system( 'git commit -m\"successfull commited\" --a ' )
 				send_log_mail(true)
 				puts "yes"
 			else
